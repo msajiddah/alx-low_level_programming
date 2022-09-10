@@ -5,15 +5,15 @@
 /**
  * main - Entry point
  *
- * return: Always 0 (seccess/correct)
+ * return: Always 0 (success/correct)
  */
 
 int main(void)
 {
 int n;
 
-srand(time(0));
-n = rand() - RAND-MAX / 2;
+rand(time(0));
+n = rand() - RAND_MAX / 2;
 
 if (n == 0)
 {
