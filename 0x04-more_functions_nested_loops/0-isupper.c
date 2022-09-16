@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _isupper - function to check if
@@ -13,7 +12,8 @@
 
 int _isupper(int c)
 {
-if (c >= 65 && c <= 90)
-return (1);
-return (0);
-}
+        if ((c >= 'A' && c <= 'C'))
+        {
+               return (1);
+        }
+        return (0);
